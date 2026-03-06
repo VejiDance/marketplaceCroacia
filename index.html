@@ -1,1 +1,288 @@
+Hola
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marketplace Hostelería</title>
 
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#333;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+background:#0f2a44;
+color:white;
+padding:20px 0;
+}
+
+header .logo{
+font-size:22px;
+font-weight:bold;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+background:#1f4e79;
+color:white;
+padding:100px 0;
+text-align:center;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.btn{
+background:#ff6600;
+color:white;
+padding:15px 30px;
+border-radius:5px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.section{
+padding:80px 0;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:50px;
+font-size:32px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.features{
+background:#ffffff;
+}
+
+.steps{
+background:#f0f3f7;
+}
+
+.cta{
+background:#0f2a44;
+color:white;
+text-align:center;
+padding:80px 0;
+}
+
+footer{
+background:#111;
+color:#bbb;
+padding:30px 0;
+text-align:center;
+font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo">HORECA Marketplace</div>
+<ul>
+<li><a href="#categorias">Categorías</a></li>
+<li><a href="#ventajas">Ventajas</a></li>
+<li><a href="#como">Cómo funciona</a></li>
+<li><a href="#vender">Vender</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<h1>Marketplace de Equipamiento para Hostelería</h1>
+<p>Encuentra todo el equipamiento profesional para bares, restaurantes y hoteles en un solo lugar.</p>
+<a class="btn" href="#">Explorar catálogo</a>
+</div>
+</section>
+
+<section id="categorias" class="section">
+<div class="container">
+
+<h2>Categorías Populares</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Maquinaria</h3>
+<p>Equipos profesionales para cocina industrial.</p>
+</div>
+
+<div class="card">
+<h3>Mobiliario</h3>
+<p>Mesas, sillas y mobiliario para hostelería.</p>
+</div>
+
+<div class="card">
+<h3>Menaje</h3>
+<p>Vajilla, cubertería y utensilios de cocina.</p>
+</div>
+
+<div class="card">
+<h3>Frío industrial</h3>
+<p>Neveras, congeladores y vitrinas.</p>
+</div>
+
+<div class="card">
+<h3>Higiene</h3>
+<p>Soluciones profesionales de limpieza.</p>
+</div>
+
+<div class="card">
+<h3>Packaging</h3>
+<p>Envases para delivery y takeaway.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="ventajas" class="section features">
+<div class="container">
+
+<h2>Ventajas del Marketplace</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Amplio catálogo</h3>
+<p>Miles de productos para profesionales HORECA.</p>
+</div>
+
+<div class="card">
+<h3>Vendedores especializados</h3>
+<p>Proveedores especializados en hostelería.</p>
+</div>
+
+<div class="card">
+<h3>Entrega rápida</h3>
+<p>Logística optimizada con entrega por paquetería.</p>
+</div>
+
+<div class="card">
+<h3>Compra segura</h3>
+<p>Pagos protegidos y soporte al cliente.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="como" class="section steps">
+<div class="container">
+
+<h2>Cómo funciona</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>1. Busca</h3>
+<p>Encuentra productos de equipamiento para hostelería.</p>
+</div>
+
+<div class="card">
+<h3>2. Compara</h3>
+<p>Compara precios y vendedores.</p>
+</div>
+
+<div class="card">
+<h3>3. Compra</h3>
+<p>Compra online de forma rápida y segura.</p>
+</div>
+
+<div class="card">
+<h3>4. Recibe</h3>
+<p>Recibe tu pedido directamente en tu negocio.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="vender" class="cta">
+<div class="container">
+
+<h2>¿Eres proveedor?</h2>
+<p>Vende tus productos a miles de negocios de hostelería.</p>
+<br>
+<a class="btn" href="#">Convertirse en vendedor</a>
+
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>© 2026 Marketplace Hostelería | Plataforma B2B</p>
+</div>
+</footer>
+
+</body>
+</html>
